@@ -7,6 +7,7 @@ Extracts details like company description, location, and interests.
 Uses OpenAI GPT to classify exhibitors into Interest Categories and Business Classes.
 Multi-threaded for faster scraping.
 Handles API rate limits intelligently.
+
 📂 Project Structure
 📦 mwc_scrapper
  ┣ 📜 run_pipeline.py                 # Runs the whole pipeline sequentially
@@ -19,17 +20,12 @@ Handles API rate limits intelligently.
 
 🛠️ Installation
 1️⃣ Clone this repository
-git clone https://github.com/your-repo/mwc_scraper.git
+git clone https://github.com/maxwellaw/mwc_scraper.git
 cd mwc_scraper
 
 2️⃣ Install dependencies
 Make sure you have Python installed. Then, run:
 pip install -r requirements.txt
-
-3️⃣ Set up OpenAI API Key
-Create a .env file in the project directory.
-Add your OpenAI API key:
-OPENAI_API_KEY=your_api_key_here
 
 ▶️ Running the Pipeline
 To execute all scripts in sequence:
